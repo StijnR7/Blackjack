@@ -12,7 +12,7 @@ namespace winForm
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
-            //hoi test
+           
         }
     }
 }

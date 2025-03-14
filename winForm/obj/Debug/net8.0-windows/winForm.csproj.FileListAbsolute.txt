@@ -1,0 +1,17 @@
+C:\Users\nijme\source\repos\winForm\winForm\bin\Debug\net8.0-windows\winForm.exe
+C:\Users\nijme\source\repos\winForm\winForm\bin\Debug\net8.0-windows\winForm.deps.json
+C:\Users\nijme\source\repos\winForm\winForm\bin\Debug\net8.0-windows\winForm.runtimeconfig.json
+C:\Users\nijme\source\repos\winForm\winForm\bin\Debug\net8.0-windows\winForm.dll
+C:\Users\nijme\source\repos\winForm\winForm\bin\Debug\net8.0-windows\winForm.pdb
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\winForm.Form1.resources
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\winForm.csproj.GenerateResource.cache
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\winForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\winForm.AssemblyInfoInputs.cache
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\winForm.AssemblyInfo.cs
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\winForm.csproj.CoreCompileInputs.cache
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\winForm.sourcelink.json
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\winForm.dll
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\refint\winForm.dll
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\winForm.pdb
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\winForm.genruntimeconfig.cache
+C:\Users\nijme\source\repos\winForm\winForm\obj\Debug\net8.0-windows\ref\winForm.dll
