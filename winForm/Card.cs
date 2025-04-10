@@ -21,6 +21,7 @@ namespace winForm
         {
             type = allTypes[random.Next(allTypes.Length)];
             value = allValues[random.Next(allValues.Length)];
+
         }
 
     }
