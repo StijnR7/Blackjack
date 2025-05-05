@@ -12,6 +12,7 @@ namespace winForm
         private List<Card> cardsPulled = new();
         private int pointsPulled;
         private Button GiveCardButton;
+        
         private Label pointsLabel;
         private Label PulledCardsLabel;
         private Label playerLabel;
@@ -19,8 +20,17 @@ namespace winForm
             this.pointsLabel = pointsLabel;
             this.PulledCardsLabel = pulledCardsLabel;
             this.IsPlayer = isPlayer;
+
             this.GiveCardButton = GiveCardButton;
             this.playerLabel = playerLabel;
+        }
+        public void ResetCardsPulled()
+        {
+            PulledCardsLabel.Text = "0";
+            pointsLabel.Text = "0";
+            cardsPulled.Clear();
+            pointsPulled = 0;
+
         }
         private void AddPointsFromCard(Card card)
         {
@@ -66,6 +76,8 @@ namespace winForm
             playerLabel.Visible = !playerLabel.Visible;
 
         }
+
+       
         public bool IsPlayer { get => isPlayer; set => isPlayer = value; }
         public int PointsPulled { get => pointsPulled; set => pointsPulled = value; }
         internal List<Card> CardsPulled { get => cardsPulled; set => cardsPulled = value; }

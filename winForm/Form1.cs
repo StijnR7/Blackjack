@@ -53,7 +53,7 @@ namespace winForm
 
 
         }
-        Deck deck = new();
+        Deck deck = new(false);
         public Form1()
         {
             InitializeComponent();
@@ -216,8 +216,9 @@ namespace winForm
 
            for(int i = 0; i < players.Count; i++)
             {
-                if (players[i].PointsPulled <= 21 && 21 - players[i].PointsPulled < dealerPoints || dealerPoints < 0)
+                if (players[i].PointsPulled <= 21 && 21 - players[i].PointsPulled < dealerPoints || dealerPoints < 0 && players[i].PointsPulled <= 21)
                 {
+                 
                     plrsWon.Add(i+1);
 
                 }
@@ -228,7 +229,16 @@ namespace winForm
         }
         private void button9_Click(object sender, EventArgs e)
         {
+            label12.Visible = true;
+
             int[] wonPlayers = CheckWinners();
+
+            foreach (Player plr in players)
+            {
+                plr.ResetCardsPulled();
+
+            }
+            dealer.ResetCardsPulled();
             
             if(wonPlayers.Length == 0)
             {

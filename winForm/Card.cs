@@ -16,11 +16,22 @@ namespace winForm
 
         public string Type { get => type; }
         public string Value { get => value; }
-
-        public Card()
+        
+        public Card(string ForcedType = "", string ForcedValue = "")
         {
-            type = allTypes[random.Next(allTypes.Length)];
-            value = allValues[random.Next(allValues.Length)];
+            if (ForcedType == "")
+            {
+                type = allTypes[random.Next(allTypes.Length)];
+            }
+            else { type = ForcedType; }
+
+
+            if (ForcedValue == "")
+            {
+                value = allValues[random.Next(allValues.Length)];
+            }
+            else { value = ForcedValue; }
+           
 
         }
 
